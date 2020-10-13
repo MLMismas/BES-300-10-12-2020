@@ -9,5 +9,7 @@ namespace ShoppingApi.Domain
 
         }
         public DbSet<ShoppingItem> ShoppingItems { get; set; }
+
+        public DbSet<CurbsideOrder> CurbsideOrders { get; set; }
     }
 }
